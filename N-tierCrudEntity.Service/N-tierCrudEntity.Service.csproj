@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>N_tierCrudEntity.Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\N-tierCrudEntity.Data\N-tierCrudEntity.Data.csproj" />
+    <ProjectReference Include="..\N-tierCrudEntity.Domain\N-tierCrudEntity.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
